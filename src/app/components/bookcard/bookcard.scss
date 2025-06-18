@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.container span {
+    font-family: monospace;
+    display: inline-block;
+    width: 150px;
+    background: #313131;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
